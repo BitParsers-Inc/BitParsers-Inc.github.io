@@ -1,0 +1,24 @@
+
+<!-- saved from url=(0069)http://127.0.0.1:5001/docs/mappender/effects/installed_effects/ripple -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><h1>Ripple Effect User Manual</h1>
+<p>The Ripple Effect generates an effect like a ripple in a liquid space. This effect has two tales that start from a center point, and move in opposite directions.</p>
+<p><img alt="Ripple Sample" src="./ripple_files/ripple_sample.gif" title="Ripple Sample"></p>
+<h2>parameters</h2>
+<h3>LED length</h3>
+<p>Determines the length of your device LED. Attention, you can set this parameter more or less than your real LED size to limit the operational LEDs.</p>
+<h3>Ripple Length</h3>
+<p>This parameter determines the length of the ripple tales.</p>
+<h3>Center</h3>
+<p>This parameter determines the center of the the ripple.</p>
+<h3>Infinite Repeat</h3>
+<p>This parameter determines if the ripple effect should be infinitely repeatable or play just once.</p>
+<h3>Ripple Duration</h3>
+<p>Lifetime of both tails before they fully disappear. For example if you set this parameter to 3, the tail will fully disappear after passing 3 led.</p>
+<h3>Speed</h3>
+<p>This parameter will determine the speed of tails moving.</p>
+<h3>Start Color, End Color and Gradient Algorithm</h3>
+<p>Start Color and End Color will determine the color of the tails start, and end respectively, this will made a gradient on both tails. Gradient Algorithm will determine how the gradient is applied. There are two different algorithms for this:</p>
+<p><strong>Naive</strong>: Use direct mixture of two colors to generate colors.</p>
+<p><strong>Spectrum</strong>: Use colors with wavelength between <code>start</code> and <code>end</code> colors to generate colors, like a part of a rainbow:</p>
+<h3>Margin Start Length, Margin End Length, and Margin Disappear Severity</h3>
+<p>You can add fade-in/fadeout like margins in both sides (or just one side) of the gradient in each tail. This will help your effect to seem more smooth. <code>Margin Disappear Severity</code> is another parameter related to margins which helps you to adjust the severity of fading in/out.</p></body></html>
