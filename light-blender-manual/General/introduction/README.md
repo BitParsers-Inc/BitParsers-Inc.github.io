@@ -1,12 +1,12 @@
 # LightBlender User Manual Introduction
 
-LightBlender is a system that users can uses installed or pre-installed effect and effect modifiers, to create their own desired effects. This will help both artists and non-artists, to have their own effect design system.
+LightBlender is an innovative system designed specifically for mapping on LED strips, offering users the creative freedom to design mesmerizing lighting effects. With LightBlender, users can harness a wide array of installed and pre-installed effects, along with customizable effect modifiers, to craft unique and captivating visual displays. Whether you're an experienced artist or someone with no artistic background, LightBlender provides an intuitive platform to bring your imagination to life. This user-friendly system empowers both professionals and enthusiasts to create stunning lighting sequences tailored to their preferences. Elevate your spaces, events, and projects with LightBlender, the ultimate solution for personalized LED strip lighting effects.
 
 ## General usage
 
 Light-Blender comes with a administration page like below:
 
-![Light Blender Version 1.3.0](pics/homepage.jpg "Light Blender Version 1.3.0")
+![Light Blender Version 1.4.0](pics/homepage.jpg "Light Blender Version 1.4.0")
 
 As you see in picture above, you have some effects on light-blender. Some of them are pre-installed on light-blender and some other effects are installed independently.
 
@@ -41,3 +41,4 @@ Effect modifiers can be apply on effects and make changes in them.
 Effect Modifiers, can be add after you create an effect. Open target edit settings by clicking on the name. in bottom of the opened section, you can add modifiers from dropdown.
 
 ![Add modifier](pics/add_modifier.png "Add modifier" )
+
